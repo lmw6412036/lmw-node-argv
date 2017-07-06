@@ -1,0 +1,28 @@
+{
+    "name": "lmw-node-argv",
+    "version": "1.0.10",
+    "description": "lmw node argv",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lmw6412036/lmw-node-argv.git"
+    },
+    "keywords": [
+        "lmw6412036",
+        "node",
+        "args"
+    ],
+    "author": "lmw6412036",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lmw6412036/lmw-node-argv/issues"
+    },
+    "homepage": "https://github.com/lmw6412036/lmw-node-argv#readme",
+    "devDependencies": {
+        "auto-version": "^1.0.11",
+        "hprose": "^2.0.44"
+    }
+}
