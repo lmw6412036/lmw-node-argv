@@ -8,11 +8,14 @@ npm i -D lmw-node-argv
 
 //index.js
 const lmwNodeArgv = require("./main")
-let argv = lmwNodeArgv(process.argv);
+let argv = lmwNodeArgv();
 console.log(argv);
 
-//命令行运行
+//node命令行运行
 node index.js -a=l -b=m -c=w
+//npm运行
+npm run dev -a=l -b=m -c=w
+//输出
 {
     a:l,
     b:m,

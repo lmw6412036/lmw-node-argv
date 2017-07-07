@@ -9,4 +9,6 @@ co(autoVersion(file))
 
 const lmwNodeArgv = require("./main")
 
-let argv = lmwNodeArgv(process.argv);
+let argv = lmwNodeArgv();
+
+console.log(argv);
